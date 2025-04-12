@@ -39,6 +39,15 @@ nav a {
   margin: 20px;
   font-size: 18px;
   font-weight: bold;
+  transition: all 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 9px; 
+}
+
+nav a:not(.theme-icon):hover {
+  background-color: #3B82F6;
+  color: black;
+  transform: scale(1.1);
 }
 
 .hero {
